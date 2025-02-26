@@ -1,37 +1,35 @@
-# IQR METHOD 
-
 import pandas as pd
 
 # Set threshold for IQR method
 threshold = 1.5  
 
+# Store original data length
+original_length = len(df)
+
 # Identify numeric columns
 num_cols = df.select_dtypes(include=['number']).columns
 
-# Compute IQR
+# Calculate IQR bounds for all numeric columns
 Q1 = df[num_cols].quantile(0.25)
 Q3 = df[num_cols].quantile(0.75)
 IQR = Q3 - Q1
 
-# Compute outlier bounds
-upper_bound = Q3 + threshold * IQR  # Only focusing on high outliers
+# Compute lower and upper bounds
+lower_bound = Q1 - threshold * IQR
+upper_bound = Q3 + threshold * IQR
 
-# Find outliers above the upper bound
-outlier_mask = (df[num_cols] > upper_bound)  # True for high outliers
-outliers_df = df[outlier_mask.any(axis=1)].copy()  # Select only outlier rows
+# Create a mask for rows that are outliers in ANY column
+outlier_mask = (df[num_cols] < lower_bound) | (df[num_cols] > upper_bound)
+outliers_per_row = outlier_mask.any(axis=1)  # Find rows with any outlier
 
-# Compute "outlier severity" (how far each value exceeds the bound)
-outliers_df["Outlier_Severity"] = (df[num_cols] - upper_bound).sum(axis=1)
+# Count total outliers before removal
+total_outliers = outliers_per_row.sum()
+print(f"📉 Total rows containing outliers: {total_outliers}")
 
-# Sort by severity (most extreme values first)
-outliers_df = outliers_df.sort_values(by="Outlier_Severity", ascending=False)
-
-# Select top 10 most extreme outliers
-top_10_outliers = outliers_df.head(10)
-
-# Remove these 10 outliers from the original dataset
-df_cleaned = df.drop(top_10_outliers.index)
+# Remove all rows with at least one outlier
+df = df[~outliers_per_row]
 
 # Print summary
-print(f"\n✅ Removed Top 10 Extreme Outliers.")
-print(f"📊 Final dataset size: {df_cleaned.shape}")
+removed_outliers = original_length - len(df)
+print(f"\n✅ Total Outliers Removed: {removed_outliers}")
+print(f"📊 Final dataset size: {df.shape}")
