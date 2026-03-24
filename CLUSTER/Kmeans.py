@@ -97,3 +97,5 @@ plt.show()
 # TO GET THE SAME CLUSTER COLUMN IN MAIN DF >>>just dont change the sequence
 
 df["Cluster"] = df_pca["Cluster"]
+
+# https://drive.google.com/drive/folders/1-G35U72IWW2k0vy7maOsq9Zy1nHL36v8
