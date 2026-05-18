@@ -4,3 +4,7 @@ https://systemsbyakshay.substack.com/p/7-best-llm-engineering-repos?r=6d5que&utm
 
 
 https://drive.google.com/file/d/1MpUVtABn11g4Oqk6vqXRN4xARM9uGwfq/view?usp=drivesdk
+
+https://swaraj2003-smarttrip-ai.hf.space
+
+https://swaraj2003-pharm-gpt.hf.space
