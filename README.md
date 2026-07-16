@@ -1,4 +1,4 @@
-https://systemsbyakshay.substack.com/p/7-best-llm-engineering-repos?r=6d5que&utm_campaign=post&utm_medium=web&triedRedirect=true
+8https://systemsbyakshay.substack.com/p/7-best-llm-engineering-repos?r=6d5que&utm_campaign=post&utm_medium=web&triedRedirect=true
 
 
 
@@ -26,3 +26,17 @@ Current CTC: 4 LPA
 Expected CTC: 7–9 LPA
 
 Attachment: Resume
+
+
+
+
+
+
+
+Hi there!
+Appreciate your comment 🙌 As promised, here’s the link for you ⬇️
+
+https://drive.google.com/file/d/12tTRueCixwFF31-BPHn9jgBGg2QJkCrK/view?usp=drivesdk
+
+
+Here is the step by step guide - https://docs.google.com/document/d/1NZ58AQIMMHz84jebWC9VwiIe8gDpRboVOIQH_chZ4iE/edit?usp=sharing
