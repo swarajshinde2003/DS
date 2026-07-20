@@ -38,5 +38,16 @@ Appreciate your comment 🙌 As promised, here’s the link for you ⬇️
 
 https://drive.google.com/file/d/12tTRueCixwFF31-BPHn9jgBGg2QJkCrK/view?usp=drivesdk
 
+Dear Sir/Madam,
 
+I would like to formally resign from my position. Kindly consider this email as my resignation notice.
+
+I am grateful for the opportunities, support, and experience I have gained during my time with the organization.
+
+I kindly request you to relieve me at the earliest possible date and complete the necessary formalities.
+
+Thank you.
+
+Regards,
+[Your Name]
 Here is the step by step guide - https://docs.google.com/document/d/1NZ58AQIMMHz84jebWC9VwiIe8gDpRboVOIQH_chZ4iE/edit?usp=sharing
