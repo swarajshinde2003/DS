@@ -1,6 +1,11 @@
 8https://systemsbyakshay.substack.com/p/7-best-llm-engineering-repos?r=6d5que&utm_campaign=post&utm_medium=web&triedRedirect=true
 AIzaSyCybxsReKr3JEzAll2sJ0pj1kCYt7k0U
 
+"claudeCode.environmentVariables": [
+    { "name": "ANTHROPIC_BASE_URL", "value": "http://localhost:8081" },
+    { "name": "ANTHROPIC_AUTH_TOKEN", "value": "dummy-proxy-handles-auth" },
+    { "name": "ANTHROPIC_API_KEY", "value": "dummy-proxy-handles-auth" }
+]
 
 
 https://drive.google.com/file/d/1MpUVtABn11g4Oqk6vqXRN4xARM9uGwfq/view?usp=drivesdk
