@@ -128,4 +128,77 @@ litellm.exceptions.BadRequestError: litellm.BadRequestError: GeminiException Bad
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(veridoc) C:\Users\TE000922\Ltfs_projects\Veridoc>python C:\Users\TE000922\Ltfs_projects\Veridoc\claude\gemini_proxy.py
+[INIT] Proxy listening on port 8081...
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏù[sj¸Ü%|X+ÕÀ;ÀH¥ª¸²ÃboÓäjÔ ¨3«(û£a~ítÎïñß©ó;`G¶Öc!»~Û"À+À/À,À0Ì©Ì¨À   ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏa´3À\¶
+                k"%»ÿ
+                 ÑÃ¬Ûä_ FyïN±3B'+î7pßªÉ%ôòÏØ{Öïãñý"À+À/À,À0Ì©Ì¨À        ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏf6öfÕÉµo¼1êaýàxºYMzÔ×%]ÛjÁZ4q¶¿)·cãcâwä?#åe¬fa="À+À/À,À0Ì©Ì¨À ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏ(äºØ1ÒSÈ³5Åù ÇHï÷[D[!»
+                                af÷ë ±sµ\î®îÑì2ù¬SQUà<¾Æ|ÛÝ¡½7"À+À/À,À0Ì©Ì¨À    ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏáPöþþsÿ(\ x®ÏÒú^nØ6Ñ³+½Ú%q j§Q~ðñÄ¢/o\_>ËL
+ÍÔò¢u"À+À/À,À0Ì©Ì¨À     ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏ·¤éðhä«êCÇz(ë«¾^[Î¦j0¹ë +|sò"ÅLê      Sî`ëZ
+                                                     í"À+À/À,À0Ì©Ì¨À ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏ&|+Íþ<Þ½/¡®Äãö§fyG¼bO"e!@ùÅ®Ê; cº×[CÄêØ.ÐUNq8B
+                                                        zÊyFì+À/À,À0Ì©Ì¨À    ÀÀ" 400 -
+[HTTP] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x05Ó\x01\x00\x05Ï\x03\x03ÊÂPôP:\x86d^¨:éâºê\x81V¦')
+[HTTP] "ÓÏÊÂPôP:d^¨:éâºêV¦Zk!Új°W" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏwÒi7¢ì¦0ðÜ½Éê¡IX@NÁeí¯çâ²K =*îÁÔDqy\ãI´Áû¡È3æ²0¯búC"À+À/À,À0Ì©Ì¨À  ÀÀ" 400 -
+[HTTP] code 400, message Bad request syntax ('\x16\x03\x01\x05Ó\x01\x00\x05Ï\x03\x03Vçc\x81ySù6')
+[HTTP] "ÓÏVçcySù6" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+³¤k«W¢ãÛ*C8ÏqÚdú:%I'¥3"kÌ|Û»0T{·3}èõ/!Î ás
+»"À+À/À,À0Ì©Ì¨À ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏÎSÔÆÏ`º×ú¯þ ðº0ùì`ù¾°+ÙPÐn ¨P-£ý¼dü¾Nn(§X0µkªÙ"À+À/À,À0Ì©Ì¨À       ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏzßÈ÷L"o¯>KïÊñ¶µË% ãÇ6zP<Ïe
+                                    4ÆoHÚ"À+À/À,À0Ì©Ì¨À ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('Îo;Õì\x02\x835°\x1a\x05¿2èÅ')
+[HTTP] "ÓÏQæ¡þ&
+ehb^Îo;Õì5°¿2èÅ" 400 -Vv¢°NLLîvNì:¶ëåò ÔÈáò
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏ_dÀ0;Ëpj«ù·Kêß|CàsÓ¸ÜO        Êÿ¥y Åögø?K2áªH®ÅïrºLÙ?rü©"À+À/À,À0Ì©Ì¨À     ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏ=ÞÂl~<Lbðèº[àUqÝÂ¦|4MÈyÎ æ÷0µ¶õ+¨KcJvëà$nyÞäùò·H»*ÉÐ8e"À+À/À,À0Ì©Ì¨À       ÀÀ" 400 -
+[HTTP] code 400, message Bad request syntax ('\x16\x03\x01\x05Ó\x01\x00\x05Ï\x03\x03°ôº55vnXªþæ\x8fÅuò~/\x12')
+[HTTP] "ÓÏ°ôº55vnXªþæÅuò~/" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏÙë+¶JCLÌ'8ô(nuj&
+                          9ñvßo$FÇß¥ Y3:        9µ©ôÐòZÁ3å52o/C#õþEuH¼"À+À/À,À0Ì©Ì¨À ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+[HTTP] "ÓÏ}lOÍ 8
+                t¼ºòÌ!¿=
+                        QhØñ¾~¨üéJæäÅÉd(|"À+À/À,À0Ì©Ì¨À ÀÀ" 400 -
+[HTTP] code 400, message Bad request version ('À\x13À')
+àõJK±¸ÜÊ$·Û$Þuñg57"À+À/À,À0Ì©Ì¨À£Ù¦ßWp ¹ÀÀ" 400 -
+
+
 INFO:     127.0.0.1:61942 - "POST /v1/messages?beta=true HTTP/1.1" 400 Bad Request
